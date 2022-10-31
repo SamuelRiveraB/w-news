@@ -1,5 +1,6 @@
 @media (min-width : 320px) {
     .header {
+        background-color: hsl(36, 100%, 99%);
         position: fixed;
         top: 0;
         left: 0;
@@ -16,28 +17,29 @@
 
     .logo {
         height: 7vw;
-        width: 40vw;
+        width: 12vw;
         cursor: pointer;
         position: relative;
         top: 50%;
-        left: 3%;
+        right: 15vw;
         transform: translateY(-50%);
         z-index: 1000;
     }
 
     .right-header {
-        background-color: #000;
+        background-color: hsl(36, 100%, 99%);
         position: fixed;
         height: 100%;
-        width: 100%;
+        width: 60%;
+        left: 40%;
     }
 
     .nav-btn {
         position: fixed;
-        top: 7vw;
-        right: 7vw;
-        width: 7vw;
-        height: 5vw;
+        top: 8vw;
+        right: 3.5vw;
+        width: 9vw;
+        height: 4vw;
         cursor: pointer;
         z-index: 1000;
     }
@@ -56,9 +58,9 @@
         all: unset;
         position: relative;
         cursor: pointer;
-        color: #FFF;
-        font-size: 6vw;
-        font-weight: 500;
+        color: hsl(240, 100%, 5%);
+        font-size: 5vw;
+        font-weight: 700;
         text-decoration: none;
         margin: 0 0 10vw 0;
     }
@@ -69,7 +71,7 @@
         width: 50%;
         display: block;
         height: .5vw;
-        background-color: #FFF;
+        background-color: rgb(255, 0, 0);
         bottom: -1vw;
         left: 50%;
         transform: translate(-50%);
@@ -87,19 +89,19 @@
 
     .logo {
         height: 4vw;
-        width: 25vw;
+        width: 8vw;
         cursor: pointer;
         position: relative;
         top: 50%;
-        left: -7%;
+        right: 16vw;
     }
 
     .nav-btn {
         position: fixed;
-        top: 3vw;
-        right: 7vw;
-        width: 5vw;
-        height: 3.5vw;
+        top: 3.5vw;
+        right: 4.5vw;
+        width: 7vw;
+        height: 3vw;
         cursor: pointer;
         z-index: 1000;
     }

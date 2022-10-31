@@ -1,8 +1,8 @@
 import React from "react";
 import "./Header.css";
-import logo from "../images/logo.svg";
-import nav from "../images/icon-hamburger.svg";
-import close from "../images/icon-close.svg";
+import logo from "../assets/images/logo.svg";
+import nav from "../assets/images/icon-menu.svg";
+import close from "../assets/images/icon-menu-close.svg";
 
 function Header() {
     function navBar() {
@@ -21,45 +21,24 @@ function Header() {
     React.useEffect(() => {
         const navImg = document.getElementsByClassName("nav-btn")[0];
         const right = document.getElementsByClassName("right-header")[0];
-        const headMenus = ["About", "Careers", "Events", "Products", "Support"];
-        const headMenus2 = ["ABOUT", "CAREERS", "EVENTS", "PRODUCTS", "SUPPORT"];
         if (window.innerWidth < 1200) {
             navImg.style.visibility = "visible";
             right.style.visibility = "hidden";
-            for(let i = 0; i < headMenus2.length; i++) {
-                document.getElementsByClassName("menu")[i].innerText = headMenus2[i];
-            }
         } else {
             right.style.visibility = "visible";
             navImg.style.visibility = "hidden";
-            for(let i = 0; i < headMenus.length; i++) {
-                document.getElementsByClassName("menu")[i].innerText = headMenus[i];
-            }
         }
         
         function responsiveNav() {
             if (window.innerWidth < 1200) {
                 navImg.style.visibility = "visible";
-                for(let i = 0; i < headMenus2.length; i++) {
-                    document.getElementsByClassName("menu")[i].innerText = headMenus2[i];
-                }
             } else {
                 right.style.visibility = "visible";
                 navImg.style.visibility = "hidden";
-                for(let i = 0; i < headMenus.length; i++) {
-                    document.getElementsByClassName("menu")[i].innerText = headMenus[i];
-                }
             }
         };
 
         window.addEventListener('resize', responsiveNav);
-        
-        const header = document.querySelector('.header');
-
-        window.addEventListener('scroll', () => {
-            let y = 0 + (window.scrollY || window.pageYOffset) / 1000;
-            header.style.background = `rgba(0,0,0,${y})`;
-        });
     });
 
     return (
@@ -71,19 +50,19 @@ function Header() {
                 <div className="right-header">
                     <ul className="header-menus">
                         <li>
-                            <button className="menu"></button>
+                            <button className="menu">Home</button>
                         </li>
                         <li>
-                            <button className="menu"></button>
+                            <button className="menu">New</button>
                         </li>
                         <li>
-                            <button className="menu"></button>
+                            <button className="menu">Popular</button>
                         </li>
                         <li>
-                            <button className="menu"></button>
+                            <button className="menu">Trending</button>
                         </li>
                         <li>
-                            <button className="menu"></button>
+                            <button className="menu">Categories</button>
                         </li>
                     </ul>
                 </div>
