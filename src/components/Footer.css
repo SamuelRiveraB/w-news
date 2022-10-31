@@ -1,0 +1,142 @@
+@media (min-width: 320px) {
+    .footer {
+        height: 130vw;
+        background-color: #000;
+        padding: 14vw 0 0 0;
+    }
+
+    .footer-logo {
+        position: relative;
+        top: 10%;
+        width: 40vw;
+        margin: 0 0 8vw 0;
+        cursor: pointer;
+    }
+
+    .footer-menus {
+        list-style: none;
+        font-size: 5vw;
+        margin-left: -8vw;
+    }
+
+    .foot-menu {
+        all: unset;
+        position: relative;
+        cursor: pointer;
+        color: #FFF;
+        font-size: 5vw;
+        font-weight: 700;
+        text-decoration: none;
+        margin: 0 0 7vw 0;
+    }
+
+    .foot-menu:hover::after {
+        content: '';
+        position: absolute;
+        width: 80%;
+        display: block;
+        height: .5vw;
+        background-color: #FFF;
+        bottom: -2vw;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .icon-cont {
+        display: inline;
+        position: relative;
+    }
+    
+    .icon-cont:hover::after {
+        content: '';
+        position: absolute;
+        width: 50%;
+        display: block;
+        height: .5vw;
+        background-color: #FFF;
+        bottom: -1vw;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .social-icon {
+        width: 7vw;
+        margin: 5vw 3vw 2vw;
+        cursor: pointer;
+    }
+
+    .rights {
+        color: hsl(0, 0%, 55%);
+        font-size: 4.5vw;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .footer {
+        display: grid;
+        height: 14vw;
+        padding: 0;
+        grid-auto-rows: 14vw;
+        grid-template-columns: 50% 50%;
+    }
+
+    .footer-logo {
+        top: 3vw;
+        right: 8.8vw;
+        height: 3vw;
+        width: 18vw;
+        margin: 0;
+    }
+
+    .footer-menus {
+        position: relative;
+        margin: 3vw 0;
+        right: 4.2vw;
+        height: 5vw;
+    }
+
+    .footer-menus li {
+        display: inline-block;
+        height: 1vw;
+    }
+
+    .foot-menu {
+        font-size: 1.4vw;
+        margin: 0 1vw;
+    }
+
+    .foot-menu::after {
+        all:unset;
+    }
+
+    .foot-menu:hover::after {
+        content: '';
+        position: absolute;
+        width: 50%;
+        display: block;
+        height: .25vw;
+        background-color: #FFF;
+        bottom: -1vw;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .icon-cont:hover::after {
+        width: 60%;
+        height: .2vw;
+        bottom: 0;
+        left: 10.8vw;
+    }
+
+    .social-icon {
+        position: relative;
+        width: 2.3vw;
+        margin: 3.5vw .6vw 1vw;
+        left: 9vw;
+    }
+
+    .rights {
+        color: hsl(0, 0%, 55%);
+        font-size: 1.7vw;
+    }
+}
