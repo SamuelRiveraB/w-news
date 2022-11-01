@@ -11,10 +11,12 @@ function Header() {
         if (right.style.visibility === "hidden") {
             right.style.visibility = "visible";
             navImg.src = close;
+            navImg.style.width = "5vw";
         } else {
             right.style.visibility = "hidden";
             navImg.style.visibility = "visible";
             navImg.src = nav;
+            navImg.style.width = "9vw";
         }
     }
 
@@ -48,6 +50,7 @@ function Header() {
                 <img src={logo} className="logo" alt="logo"/>
                 </div>
                 <div className="right-header">
+                    <div className="opaque"></div>
                     <ul className="header-menus">
                         <li>
                             <button className="menu">Home</button>

@@ -1,5 +1,5 @@
 @media (min-width: 320px) {
-    body {
+    html {
         background-color: hsl(36, 100%, 99%);
     }
 
@@ -52,6 +52,10 @@
         cursor: pointer;
     }
 
+    .read-btn:hover {
+        background-color: hsl(240, 100%, 5%);
+    }
+
     .side {
         background-color: hsl(240, 100%, 5%);
         padding: 0 5vw;
@@ -67,6 +71,11 @@
         color: #FFF;
         text-align: left;
         font-size: 4.5vw;
+        cursor: pointer;
+    }
+
+    .side-title:hover {
+        color:hsl(35, 77%, 62%);
     }
 
     .side-text {
@@ -113,6 +122,11 @@
         text-align: left;
         top: 1.5vw;
         width: 55vw;
+        cursor: pointer;
+    }
+
+    .article-title:hover {
+        color:hsl(5, 85%, 63%);
     }
 
     .article-text {

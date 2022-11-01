@@ -21,7 +21,7 @@ function Home() {
     })
 
     return (
-        <div>
+        <>
             <div className="container">
                 <div className="banner">
                     <img className="banner-img" src="" alt="banner-img"></img>
@@ -64,7 +64,7 @@ function Home() {
                     <p className="article-text">How the pandemic has sparked fresh opportunities.</p>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 
