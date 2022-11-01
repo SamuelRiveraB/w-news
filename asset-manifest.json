@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/w-news/static/css/main.1403884c.css",
+    "main.js": "/w-news/static/js/main.c2e1929a.js",
+    "static/js/787.a4e77000.chunk.js": "/w-news/static/js/787.a4e77000.chunk.js",
+    "static/media/image-web-3-desktop.jpg": "/w-news/static/media/image-web-3-desktop.988d05305d18140f188c.jpg",
+    "static/media/image-web-3-mobile.jpg": "/w-news/static/media/image-web-3-mobile.aff7a393740bc26b3651.jpg",
+    "static/media/image-retro-pcs.jpg": "/w-news/static/media/image-retro-pcs.4ecb8a36b05f012297a6.jpg",
+    "static/media/logo.svg": "/w-news/static/media/logo.c6b5661f5975f9f1c10d76ac5d2a72c6.svg",
+    "index.html": "/w-news/index.html",
+    "static/media/icon-menu-close.svg": "/w-news/static/media/icon-menu-close.ca20d86e8364ad748c947025ef771994.svg",
+    "static/media/icon-menu.svg": "/w-news/static/media/icon-menu.f967d833be0e64002eeaadab0bae9ac5.svg",
+    "main.1403884c.css.map": "/w-news/static/css/main.1403884c.css.map",
+    "main.c2e1929a.js.map": "/w-news/static/js/main.c2e1929a.js.map",
+    "787.a4e77000.chunk.js.map": "/w-news/static/js/787.a4e77000.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1403884c.css",
+    "static/js/main.c2e1929a.js"
+  ]
+}
